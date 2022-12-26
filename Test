@@ -1,0 +1,21 @@
+package SAURABHTIWARI;
+
+import java.util.Scanner;
+
+public class Test {
+    public static void main(String[] args) {
+        int age = 40;
+        char gender = 'f';
+        if (gender == 'm') {
+            if (age > 50)
+                System.out.println("ticket price is INR 10 only ");
+            else
+                System.out.println("ticket price is INR 20 only");
+        } else {
+            if (age < 30)
+                System.out.println("ticket price is INR 50 only");
+            else
+                System.out.println("ticket price is INR 40 only");
+        }
+    }
+}
